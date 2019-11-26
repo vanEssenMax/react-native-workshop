@@ -11,23 +11,17 @@ export default class ChatListComponent extends Component {
                     </Left>
                     <Body>
                         <Text>Opa Henk</Text>
-                        <Text note>Hoe gaat het met je zus.</Text>
+                        <Text note>Hoe gaat het met je zus. - 3:43 pm</Text>
                     </Body>
-                    <Right>
-                        <Text note>3:43 pm</Text>
-                    </Right>
                 </ListItem>
                 <ListItem avatar>
                     <Left>
-                        <Thumbnail source={require('../assets/avatars/avatar1.jpg')} />
+                        <Thumbnail source={require('../assets/avatars/avatar2.jpg')} />
                     </Left>
                     <Body>
-                        <Text>Opa Henk</Text>
-                        <Text note>Hoe gaat het met je zus.</Text>
+                        <Text>Doge</Text>
+                        <Text note>Such wow, much amaze. - 3:43 pm</Text>
                     </Body>
-                    <Right>
-                        <Text note>3:43 pm</Text>
-                    </Right>
                 </ListItem>
             </List>
 

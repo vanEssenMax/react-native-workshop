@@ -5,18 +5,17 @@ export default class NavFooter extends Component {
         return (
                 <Footer>
                     <FooterTab>
-                        <Button vertical>
-                            <Icon name='home' />
-                            <Text>Apps</Text>
+                        <Button active>
+                            <Icon name='chatboxes' />
+                            <Text>All Chats</Text>
                         </Button>
                         <Button vertical>
-                            <Text>Camera</Text>
-                        </Button>
-                        <Button vertical active>
-                            <Text>Navigate</Text>
+                            <Icon name='md-people' />
+                            <Text>Groups Chats</Text>
                         </Button>
                         <Button vertical>
-                            <Text>Contact</Text>
+                            <Icon name='camera' />
+                            <Text>QR Scanner</Text>
                         </Button>
                     </FooterTab>
                 </Footer>
