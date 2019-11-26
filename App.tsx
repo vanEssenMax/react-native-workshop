@@ -1,15 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React, {Fragment} from 'react';
-import FooterDev from "./FooterDev";
+import NavFooter from "./NavFooter";
 import {Container, Content, Header, Title, Body} from "native-base";
 
 const App = () => {
@@ -23,7 +13,7 @@ const App = () => {
           <Content padder>
 
           </Content>
-          <FooterDev />
+          <NavFooter />
       </Container>
   );
 };
