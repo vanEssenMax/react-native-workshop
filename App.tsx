@@ -1,6 +1,7 @@
-import React, {Fragment} from 'react';
-import NavFooter from "./NavFooter";
+import React from 'react';
+import NavFooter from "./components/NavFooter";
 import {Container, Content, Header, Title, Body} from "native-base";
+import ChatListComponent from "./components/ChatListComponent";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
                   <Title>Geweldige Applicatie</Title>
               </Body>
           </Header>
-          <Content padder>
+          <Content>
 
           </Content>
           <NavFooter />
