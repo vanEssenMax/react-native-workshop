@@ -5,15 +5,15 @@ export default class NavFooter extends Component {
         return (
                 <Footer>
                     <FooterTab>
-                        <Button active transparent>
+                        <Button active>
                             <Icon name='chatboxes' />
                             <Text>All Chats</Text>
                         </Button>
-                        <Button transparent>
+                        <Button >
                             <Icon name='md-people' />
                             <Text>Groups Chats</Text>
                         </Button>
-                        <Button transparent>
+                        <Button>
                             <Icon name='camera' />
                             <Text>QR Scanner</Text>
                         </Button>
