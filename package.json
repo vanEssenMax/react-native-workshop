@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
+    "run-ios": "npx react-native run-ios && npx react-native log-ios",
     "test": "jest"
   },
   "dependencies": {
     "native-base": "^2.13.8",
     "react": "16.8.6",
     "react-native": "0.60.5",
+    "react-native-sqlite-storage": "^4.1.0",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.0.10",
     "ws": ">=3.3.1"
